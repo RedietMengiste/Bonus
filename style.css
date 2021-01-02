@@ -1,7 +1,10 @@
 body{
 	color: #ffffff;
-	background:#323232 url(http://www.csszengarden.com/219/bg.png)no-repeat bottom fixed;
-	height: 100px;
+	background:#323232 url(http://www.csszengarden.com/219/bg.png);
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 67% 0%; 
+
 	margin-right:100px
 }
 a{
