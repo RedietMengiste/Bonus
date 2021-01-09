@@ -7,6 +7,7 @@ body{
   	background-position: 0% 9%,100% 9%,67% bottom; 
 	background-size:15% auto,17% auto,100% auto;
 	z-index: -1;
+	
 }
 a{
 	text-decoration: none;
@@ -19,7 +20,7 @@ a{
 	
 	margin: 70px 100px;
 }
-p::before {
+.page-wrapper::before {
   background: url(http://www.csszengarden.com/219/hook3.svg);
 }
 p ::after{
